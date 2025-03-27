@@ -19,7 +19,7 @@ connectDB();
 //   })();
 // Middleware
 app.use(cors({
-    origin: ["http://localhost:3000", "https://yourfrontenddomain.com"], // Adjust as needed
+    origin: ["http://localhost:3000", "https://sample-frontend-six.vercel.app"], // Adjust as needed
     methods: "GET,POST,PUT,DELETE",
     allowedHeaders: "Content-Type,Authorization"
   }));
